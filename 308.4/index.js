@@ -29,18 +29,6 @@ for (i = 0; i < newArray.length; i++) {
 
 console.log(twoDArray)
 
-// function addRow(rowData) {
-//     const newRow = rowData.join(',');
-   
-//     // Split the new row into an array of values
-//     const values = newRow.split(',');
-   
-//     // Check if the new row has the same number of columns as the header row
-//     if (values.length !== numColumns) {
-//        console.log('The new row has a different number of columns than the header row.');
-//        return csvData;
-//     }
-// }
 console.log("===== PART 3: TRANSFORMING DATA =====")
 
 // For each row of data in the result array produced by your code above, create an object where the key of each value is the heading for that value’s column.
